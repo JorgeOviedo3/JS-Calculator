@@ -25,29 +25,39 @@ body {
   padding: 20px;
   border-radius: 15px;
   background-color: #0e0c13;
+  transition: all 500ms ease;
+}
+
+.display-screen {
+  background-color: #17141f;
+  border-radius: 15px;
 }
 
 #display {
   margin: 0 10px;
   height: 80px;
   width: auto;
-  max-width: 270px;
+  max-width: 500px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   font-size: 40px;
   margin-bottom: 20px;
-  overflow-x: scroll;
   color: white;
-  background-color: #17141f;
-  border-radius: 15px;
-  padding-right: 15px;
+  padding-right: 5px;
   padding-bottom: 15px;
+  overflow-x: scroll;
 }
 
 #display::-webkit-scrollbar {
-  height: 3px;
   display: block;
+  height: 3px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button {

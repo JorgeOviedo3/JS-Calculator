@@ -12,6 +12,7 @@ buttons.forEach((item) => {
       );
     } else if (item.id == "equal" && display.innerText != "") {
       display.innerText = eval(display.innerText);
+      display.innerText = parseFloat(display.innerText.toFixed(2));
     } else if (display.innerText == "" && item.id == "equal") {
       display.innerText = "Zero equals zero :)";
       setTimeout(() => (display.innerText = ""), 2000);
