@@ -1,2 +1,2 @@
 # JS-Calculator
-[https://jorgeoviedo3.github.io/JS-Calculator/](Demo!)
+[Demo!](https://jorgeoviedo3.github.io/JS-Calculator/
