@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="display-screen">
+          <div id="display"></div>
+        </div>
+        <div class="buttons">
+          <table>
+            <tr>
+              <td><button id="clear" class="btn-operator">C</button></td>
+              <td><button id="/" class="btn-operator">/</button></td>
+              <td><button id="*" class="btn-operator">*</button></td>
+              <td><button id="-" class="btn-operator">-</button></td>
+            </tr>
+            <tr>
+              <td><button id="7" class="btn-number">7</button></td>
+              <td><button id="8" class="btn-number">8</button></td>
+              <td><button id="9" class="btn-number">9</button></td>
+              <td><button id="+" class="btn-operator">+</button></td>
+            </tr>
+            <tr>
+              <td><button id="4" class="btn-number">4</button></td>
+              <td><button id="5" class="btn-number">5</button></td>
+              <td><button id="6" class="btn-number">6</button></td>
+              <td><button id="backspace" class="btn-operator"><</button></td>
+            </tr>
+            <tr>
+              <td><button id="1" class="btn-number">1</button></td>
+              <td><button id="2" class="btn-number">2</button></td>
+              <td><button id="3" class="btn-number">3</button></td>
+              <td rowspan="2">
+                <button id="equal" class="btn-operator">=</button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button id="0" class="btn-number zero">0</button>
+              </td>
+              <td><button id="." class="btn-operator">.</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <footer>
+        <p>
+          This Calculator was made by
+          <a href="https://github.com/JorgeOviedo3" target="_blank"
+            >Jorge Oviedo</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
